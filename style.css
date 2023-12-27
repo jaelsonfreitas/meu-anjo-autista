@@ -112,9 +112,10 @@ body {
 }
 
 .nav li {
+    text-align: center;
     display: inline;
     margin-right: 25px;
-    font-weight: 800;
+    font-weight: 400;
     transition: font-size 0.3s;
     text-decoration: none; /* Remover sublinhado */
     cursor: default; /* Alterar cursor para o padrão */

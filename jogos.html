@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> JOGOS - Meu Anjo Autista</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/assets/images/jogo-da-velha.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&family=Tilt+Neon&display=swap" rel="stylesheet">
     <style>
        #jogos {
         align-items: center;
@@ -12,9 +16,35 @@
     </style>
 </head>
 <body>
-    <p>
-        Em Breve teremos muitos jogos aqui...
-    </p>
+    <header class="header">
+        <div class="Menu">
+            <span style='font-size:30px;'>&#9619;</span>
+            <h1>Menu</h1>
+            <div id="separator">|</div>
+            <p id="paragrafo">Assine</p>
+        </div>
+            <div class="meu-anjo">
+                <p>Jogos Selecionados</p>
+            </div>
+        <div class="acess">
+            <div>
+                <button class="botao-login">
+                    Conta Premium
+                    <div>
+                        <img src="./assets/images/login.png" alt="imagem de login">
+                    </div>
+                </button>
+            </div>
+            
+            <div id="separator">|</div>
+            <div>
+                <form action="/pagina-de-resultado" method="get">
+                    <input type="submit" value="Buscar" />
+                </form>
+            </div>
+        </div>
+    </header>
+   
     <div id="jogos">
         <iframe src="https://y8.com/embed/park_on_slot" scrolling="no" style="width: 800px; height: 500px; border: 0; margin: 0; padding: 0;"> </iframe>
         <iframe src="https://y8.com/embed/moto_city_driver" scrolling="no" style="width: 800px; height: 500px; border: 0; margin: 0; padding: 0;"> </iframe>
