@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'SuperMario256';
+    src: url('assets/fonts/SuperMario256.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: roboto;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.acess {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.acess div {
+    margin-right: 10px;
+    padding: 5px;
+}
+.botao-login {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botao-login div {
+    margin-left: 5px;
+}
+
+.botao-login img {
+    max-height: 40px;
+}
+
+.acess div:last-child {
+    margin-right: 0;
+}
+
+#separator {
+    font-weight: 200;
+    font-size: 90px;
+}
+
+
+.Menu {
+    display: flex;
+    align-items: center;
+}
+
+.Menu span {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.meu-anjo{
+    font-family: 'SuperMario256', sans-serif;
+    font-size: 40px;
+    padding: 2px;
+    width: 800px;
+    text-align: center;
+}
+#blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#paragrafo {
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.nav {
+    width: 99%;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgb(152, 150, 150);
+    border-bottom: 1px solid rgb(152, 150, 150);
+    text-align: center;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 4px;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 25px;
+    font-weight: 800;
+    transition: font-size 0.3s;
+    text-decoration: none; /* Remover sublinhado */
+    cursor: default; /* Alterar cursor para o padrão */
+}
+.nav li a {
+    text-decoration: none; /* Remover sublinhado */
+    color: inherit; /* Usar a cor padrão do texto */
+}
+
+.nav li:hover {
+    font-size: 1.2em;
+}
