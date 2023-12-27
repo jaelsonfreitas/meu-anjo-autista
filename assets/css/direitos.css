@@ -11,8 +11,20 @@ h1{
     text-align: center;
 }
 
+.ol-todas {
+    list-style-type: none;
+}
+
+.initial {
+    text-align: center;
+}
+
 #leis {
     display: flex;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
 }
 
 #text-list {
@@ -29,4 +41,19 @@ h1{
     font: 400;
     border: 2px solid;
     line-height: 5.8;
+}
+
+#video-duplo{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid;
+    text-align: center;
+    width: 39%;
+
+}
+
+.text-list-dupla{
+    width: 61%;
+    padding: 5px;
+    margin: 5px;
 }
