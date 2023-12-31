@@ -128,3 +128,23 @@ body {
 .nav li:hover {
     font-size: 1.2em;
 }
+
+.apoiadores-container {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.apoiadores-marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+.apoiadores-marquee img {
+    height: 300px; /* Definindo a altura máxima */
+    margin-right: 20px; /* Espaço entre os logos */
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
