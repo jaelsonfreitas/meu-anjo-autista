@@ -72,17 +72,14 @@ body {
     width: 800px;
     text-align: center;
 }
-#blue {
-    color: blue;
+
+.meu-anjo img{
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    
 }
 
-#red {
-    color: red;
-}
-
-#green {
-    color: green;
-}
 
 #paragrafo {
     align-items: center;
