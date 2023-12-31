@@ -137,8 +137,9 @@ body {
 }
 
 .apoiadores-marquee img {
-    height: 100px; /* Definindo a altura máxima */
-    margin-right: 20px; /* Espaço entre os logos */
+    height: 100px;
+    width: 200px;
+    margin-right: 20px; 
 }
 
 @keyframes marquee {
