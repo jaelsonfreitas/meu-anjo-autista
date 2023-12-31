@@ -76,7 +76,7 @@ body {
 .meu-anjo img{
     border-radius: 20px;
     height: 100px;
-    width: 200px;
+    width: 300px;
     
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 .apoiadores-marquee img {
-    height: 300px; /* Definindo a altura máxima */
+    height: 100px; /* Definindo a altura máxima */
     margin-right: 20px; /* Espaço entre os logos */
 }
 
@@ -148,6 +148,29 @@ body {
 
 #h2-apoiadores {
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#desenvolvedor{
+    font-family: 'SuperMario256';
+    background-color: rgb(205, 205, 233);
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    grid-row: auto;
+
+}
+
+.footer{
+    display: flex;
+    font-family: 'Roboto';
+}
+
+#parceiro{
+    width: 50%;
+    
 
 }
