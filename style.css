@@ -148,3 +148,9 @@ body {
     0%   { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
+
+#h2-apoiadores {
+    text-align: center;
+    font-family: Roboto;
+
+}
