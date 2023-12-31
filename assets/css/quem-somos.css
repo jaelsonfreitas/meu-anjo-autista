@@ -69,20 +69,17 @@ body {
     font-family: 'SuperMario256', sans-serif;
     font-size: 40px;
     padding: 2px;
-    width: 800px;
+    width: 200px;
     text-align: center;
 }
-#blue {
-    color: blue;
+
+.meu-anjo img{
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    
 }
 
-#red {
-    color: red;
-}
-
-#green {
-    color: green;
-}
 
 body{
     background-color: rgb(51, 46, 46);
