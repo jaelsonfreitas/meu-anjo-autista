@@ -233,7 +233,21 @@ body {
 
 
 #parceiro{
-    width: 50%;
+    width: 90%;
     margin: 5px;
     padding: 5px;
+    text-align: center;
+}
+
+#parceiro ul {
+    font-family: 'Roboto';
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+#parceiro li {
+    display: inline-block;
+    padding-right: 15px;
+    font-weight: 600;
 }
