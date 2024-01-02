@@ -19,7 +19,7 @@ body {
     border-radius: 10px;
 }
 
-.acess {
+/*.acess {
     display: flex;
     align-items: center;
     background-color: #f2f2f2;
@@ -64,13 +64,14 @@ body {
 .Menu span {
     font-size: 30px;
     margin-right: 10px;
-}
+}*/
 
 .meu-anjo{
     font-family: SuperMario256, sans-serif;
+    align-items: center;
     font-size: 40px;
     padding: 2px;
-    width: 800px;
+    width: 100%;
     text-align: center;
 }
 
@@ -251,4 +252,12 @@ body {
     display: inline-block;
     padding-right: 15px;
     font-weight: 600;
+}
+
+.me-ajude{
+    display: flex;
+    background-color: #f1f1f1;
+    height: 300px;
+    margin: 10px;
+    padding: 15px;
 }

@@ -1,3 +1,5 @@
+alert("Tenha calma!! este site ainda esta em construção")
+
 document.addEventListener("DOMContentLoaded", function () {
     const marqueeContainer = document.querySelector('.apoiadores-marquee');
 
