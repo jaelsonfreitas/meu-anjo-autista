@@ -261,3 +261,68 @@ body {
     margin: 10px;
     padding: 15px;
 }
+
+.duvida{
+    font-family: 'Roboto';
+    text-align: center;
+    width: 50%;
+    margin: 3px;
+    padding: 5px;
+    color: rgb(148, 53, 188);
+}
+
+.duvida button {
+    background-color: rgb(148, 53, 188);
+    font-family: 'Roboto';
+    font-size: 18px;
+    border-radius: 15px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.duvida a{
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.newsletter{
+    margin: 3px;
+    width: 49%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(148, 53, 188);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.newsletter input{
+    border-radius: 5px;
+    height: 25px;
+}
+
+.newsletter button{
+    margin: 15px;
+    background-color: rgb(148, 53, 188);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 15px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
